@@ -135,3 +135,51 @@ button span {
 .on{
     opacity: 1;
 }
+
+@media screen and (max-width:768px) { 
+    nav {
+        padding:10px;
+        display: flex;
+
+    }
+    nav .logo{
+        width: 120px;
+    }
+    nav ul{
+        text-align: center;
+    }
+    nav ul li {
+        flex: 1;
+        margin: 10px 2px;
+    
+    }
+    nav ul li a {
+        display: block;
+        text-align: center;
+        margin: 5px 0;
+        transition: color 0.3s;
+
+    }
+    nav ul li :hover{
+        color: #00986f;
+        cursor: pointer;
+    }
+    button{
+        width: 50px;
+    }
+    .text-container {
+        margin-left:65%;
+        max-width: 100%;
+    }
+    .text-container h1{
+        font-size: 40px;
+    }
+    .text-container a {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .lamp-container {
+        left: 18%;
+    }
+
+}
